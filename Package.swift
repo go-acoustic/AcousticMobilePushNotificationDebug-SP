@@ -12,17 +12,17 @@
 
 import PackageDescription
 
-print("Using AcousticMobilePush debug version, if you need release version use https://github.com/Acoustic-Mobile-Push/AcousticMobilePush-SP")
+print("Using AcousticMobilePushNotificationdebug version, if you need release version use https://github.com/Acoustic-Mobile-Push/AcousticMobilePushNotification-SP")
 let package = Package(
-    name: "AcousticMobilePush",
+    name: "AcousticMobilePushNotification",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "AcousticMobilePush",
-            targets: ["AcousticMobilePush"),
+            name: "AcousticMobilePushNotification",
+            targets: ["AcousticMobilePushNotification"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -33,8 +33,8 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
-            name: "AcousticMobilePush",
-            url: "https://github.com/Acoustic-Mobile-Push/iOS/releases/download/3.8.15/AcousticMobilePush_XCFramework_Debug.zip",
-            checksum: "62c36253943e7c8e2590b23d4343a35181fb9f15390cda18d21f0feb2a42f04d"),
+            name: "AcousticMobilePushNotification",
+            url: "https://github.com/Acoustic-Mobile-Push/iOS/releases/download/3.8.16/AcousticMobilePushNotification_XCFramework_Debug.zip",
+            checksum: "ed017ab0fb0851dd0c3c84d080f63009541efc7f3bd09bff848e9edc01c3fbd8"),
     ]
 )
