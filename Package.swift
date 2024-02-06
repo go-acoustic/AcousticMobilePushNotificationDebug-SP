@@ -2,7 +2,7 @@
 // swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
-// Copyright (C) 2023 Acoustic, L.P. All rights reserved.
+// Copyright (C) 2024 Acoustic, L.P. All rights reserved.
 //
 // NOTICE: This file contains material that is confidential and proprietary to
 // Acoustic, L.P. and/or other developers. No license is granted under any intellectual or
@@ -34,7 +34,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "AcousticMobilePushNotification",
-            url: "https://github.com/Acoustic-Mobile-Push/iOS/releases/download/3.8.18/AcousticMobilePushNotification_XCFramework_Debug.zip",
-            checksum: "a0cf5ba344c74a9b40e7913a5d333ec628d419478f804cedd1826e9413dcb97b"),
+            url: "https://github.com/Acoustic-Mobile-Push/iOS/releases/download/3.8.19/AcousticMobilePushNotification_XCFramework_Debug.zip",
+            checksum: "a840ca793dffed144a621ac866f410c2d9c346521d5c3664c248712a1f2a6857"),
     ]
 )
